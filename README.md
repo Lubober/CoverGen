@@ -11,6 +11,8 @@ Follow these steps to set up the project environment:
 2. **Activate the Conda environment:**
    ```bash
    conda activate covergen_env
+
+   conda install -c conda-forge ffmpeg
   
 ## To Use The Model:
 1. **Place The audio file that you want to generate an image from into the ./data/audios/ directory**
