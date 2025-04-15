@@ -1,5 +1,14 @@
 data/audios/*
+!data/audios/.gitkeep
+
 data/embeddings/*
+!data/embeddings/.gitkeep
+
 data/img2img/*
+!data/img2img/.gitkeep
+
 data/sd_img/*
+!data/sd_img/.gitkeep
+
 data/ext_chorus/*
+!data/ext_chorus/.gitkeep
