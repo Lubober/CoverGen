@@ -17,5 +17,4 @@ Follow these steps to set up the project environment:
 2. **Run the following command:**
    ```bash
    python main.py <filename>```
-
-   Note that the file name should not contain the file extension eg. if you want to generate an image from song.mp3, the command is "python main.py song"
+Note that the file name should not contain the file extension eg. if you want to generate an image from song.mp3, the command is "python main.py song"
