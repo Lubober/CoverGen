@@ -1,4 +1,4 @@
-name: openl3_env
+name: covergen_env
 channels:
   - defaults
   - conda-forge

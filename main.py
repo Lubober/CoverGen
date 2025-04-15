@@ -1,6 +1,11 @@
-from CoverGen import extract_chorus,extract_embedding,generate_image, denoise_image
+import sys
+from CoverGen import extract_chorus, extract_embedding, generate_image, denoise_image
 
-song_name = "never_alone"
+if len(sys.argv) > 1:
+    song_name = sys.argv[1]
+else:
+    print("Usage: python script.py <song_name>, without the .mp3 extension")
+    sys.exit(1)
 
 input_mp3 = f"./data/audios/{song_name}.mp3"
 output_mp3 = f"./data/ext_chorus/{song_name}.mp3"
