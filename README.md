@@ -12,3 +12,8 @@ Follow these steps to set up the project environment:
    ```bash
    conda activate covergen_env
   
+## To Use The Model:
+1. **Place The audio file that you want to generate an image from into the ./data/audios/ directory**
+2. **Run the following command:**
+   ```bash
+   python main.py <name of your audio file without the file extension>
