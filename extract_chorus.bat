@@ -1,1 +1,0 @@
-python extract_chorus.py --input_mp3 ".\audios\Yung_Lean_-_Hurt.mp3" --output_mp3 ".\chorus\extracted_segment.mp3"
