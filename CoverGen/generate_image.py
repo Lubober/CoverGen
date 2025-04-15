@@ -62,12 +62,3 @@ def generate_image(adapter_checkpoint,audio_embedding,output_image="generated.pn
     
     os.rename(output_image, new_image_path)
     print(f"Renamed output image to {new_image_path}")
-
-    # # ---------------- Move Evaluated Audio Embedding ----------------
-    # # Define folder to store evaluated embeddings; create it if it doesn't exist
-    # evaluated_folder = os.path.join(os.path.dirname(audio_embedding), "../evaluated_embeddings")
-    # os.makedirs(evaluated_folder, exist_ok=True)
-    # new_embedding_path = os.path.join(evaluated_folder, os.path.basename(audio_embedding))
-    
-    # os.rename(audio_embedding, new_embedding_path)
-    # print(f"Moved audio embedding to {new_embedding_path}")
