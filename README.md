@@ -11,7 +11,8 @@ Follow these steps to set up the project environment:
 2. **Activate the Conda environment:**
    ```bash
    conda activate covergen_env
-
+2. **Install ffmpeg:**
+   ```bash
    conda install -c conda-forge ffmpeg
   
 ## To Use The Model:
