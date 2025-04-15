@@ -9,6 +9,6 @@ Follow these steps to set up the project environment:
    conda env create -f environment.yml
 
 2. **Activate the Conda environment:**
-  ```bash
-  conda activate covergen_env
+   ```bash
+   conda activate covergen_env
   
