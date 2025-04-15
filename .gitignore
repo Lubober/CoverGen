@@ -1,5 +1,5 @@
-data/audios/
-data/embeddings/
-data/img2img/
-data/sd_img/
-data/ext_chorus/
+data/audios/*
+data/embeddings/*
+data/img2img/*
+data/sd_img/*
+data/ext_chorus/*
