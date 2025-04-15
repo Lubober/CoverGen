@@ -12,3 +12,5 @@ data/sd_img/*
 
 data/ext_chorus/*
 !data/ext_chorus/.gitkeep
+
+CoverGen/__pycache__
